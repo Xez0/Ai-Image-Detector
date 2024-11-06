@@ -28,8 +28,8 @@ const tagsPerPage = 20;
           reader.onload = (e) => (imagePreview.src = e.target.result);
           reader.readAsDataURL(file);
 
-          const apiKey = "acc_3fef984b797745a";
-          const apiSecret = "98aa38f1dd49cfff30fcb461f34e9b7f";
+          const apiKey = "acc_f83c36a0ebd8e5f";
+          const apiSecret = "cc8291180bf92015e7195067f79d942b";
           const authHeader = "Basic " + btoa(`${apiKey}:${apiSecret}`);
 
           const formData = new FormData();
